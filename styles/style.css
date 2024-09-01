@@ -8,3 +8,50 @@
 body {
     font-family: "Azeret Mono", monospace;
 }
+
+/* hero-section-styles */
+#hero {
+    background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    width: 1440px;
+    height: 652px;
+
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+
+.hero-description {
+    font-size: 16px;
+    opacity: 70%;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.hero-btn {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: "Azeret Mono", monospace;
+
+
+}
+
+.hero-content {
+    width: 998px;
+    margin: 26px 0 45px 0;
+}
+
+/* hero-section-end */

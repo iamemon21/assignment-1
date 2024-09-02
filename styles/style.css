@@ -231,3 +231,84 @@ body {
 }
 
 /* My-inspiration-section-end */
+/*  My-current-target-section-styles */
+
+#my-current-target {
+    max-width: 1140px;
+    max-height: 460px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.current-target-text {
+    /* border: 2px solid green; */
+    width: 946px;
+    height: 113px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    /* border: 2px solid red; */
+    max-width: 364px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.current-target-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.current-target-description {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+    line-height: 1.5;
+}
+
+.skill-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.skill-description {
+    font-size: 16px;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
+.shared-btn {
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#one {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+#two {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+#three {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+/*  My- current-target-section-end */

@@ -312,3 +312,62 @@ body {
 }
 
 /*  My- current-target-section-end */
+
+/* My next target section styles */
+
+#my-next-target {
+    width: 1140px;
+    height: 886px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.next-target-text {
+    width: 852px;
+    height: 113px;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.next-target-skill {
+    max-width: 1140px;
+    max-height: 219px;
+    /* border: 2px solid green; */
+    margin-top: 48px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.next-target-title {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.next-target-description {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+    line-height: 5;
+}
+
+.next-skill-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.next-skill-description {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+/* My next target section end */

@@ -55,3 +55,119 @@ body {
 }
 
 /* hero-section-end */
+/* dev-section-start */
+#dev {
+    height: 1393px;
+    width: 1140px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    margin-bottom: 150px;
+
+}
+
+.dev-title {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.dev-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 1);
+    margin-top: 15px;
+    opacity: 0.7;
+}
+
+.text-container {
+    width: 852px;
+    height: 113px;
+    /* border: 2px solid blue; */
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.dev-container {
+    width: 946px;
+    height: 1233px;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    padding: 80px;
+
+}
+
+.box-one,
+.box-two {
+    margin-top: 48px;
+    width: 946px;
+    height: 336px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    line-height:1.5;
+}
+
+#extra-effect {
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+
+}
+
+.box-one-content {
+    /* border: 2px solid yellow; */
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-one-text-container,
+.box-two-text-container {
+    width: 425px;
+    height: 240px;
+    /* border: 2px solid red; */
+}
+
+.box-two-content {
+    /* border: 2px solid green; */
+    width: 850px;
+    height: 240px;
+    display: flex;
+}
+
+.box-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 16px;
+}
+
+.box-description {
+    font-size: 16px;
+    color: rgba(13, 19, 33, 1);
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+#extra-margin {
+    margin-left: 35px;
+}
+
+.box-btn {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1);
+    opacity: 0.7;
+    padding: 12px 20px;
+    border: 1px solid;
+    background-color: white;
+    font-family: "Azeret Mono", monospace;
+
+}
+/* dev-section-end */
